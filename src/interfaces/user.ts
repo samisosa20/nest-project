@@ -1,5 +1,5 @@
 export interface User {
-    name: string,
-    last_name: string,
-    email: string,
+    firstName: string,
+    lastName: string,
+    isActive?: boolean,
 }
